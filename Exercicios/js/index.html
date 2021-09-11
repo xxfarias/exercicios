@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="#">
+    <title>Primeiros passos JavaScript</title>
+</head>
+
+<body>
+    <h1>Primeiros passos com o JS</h1>
+    <br> <br>
+
+    <h2>Data e hora</h2>
+
+    <button type="button" onclick="document.getElementById('paragrafo').innerHTML=Date()">Clique para saber o dia e a hora</button>
+    <p id="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere praesentium consequatur quo a deserunt officia mollitia, nihil laborum culpa pariatur libero nisi sapiente. Iusto repellendus earum, quidem culpa beatae quibusdam.</p>
+    <br> <br>
+    <hr>
+
+    <h2>Mudança de paragrafo</h2>
+    <br>
+    <p id="mudar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad perspiciatis officia facilis officiis dolorem ullam quas quidem, repellendus mollitia iusto magni sequi error molestiae unde tenetur aliquid a laboriosam.</p>
+    <button type="button" onclick="document.getElementById('mudar').innerHTML='texto alterado'"> CLICAR  </button>
+    <hr> <br>
+    <h2>ACENDA A LAMPADA</h2> <br>
+    <button type="button" onclick="document.getElementById('lampada').src='imagens/lampada_apagada.jpg'">Desligar lampada</button>
+    <img id="lampada" src="imagens/lampada_apagada.jpg" alt="#">
+    <button type="button" onclick="document.getElementById('lampada').src='imagens/lampada_acessa.jpg ' "> Ligar lampada</button>
+    <br> <br>
+    <hr>
+    <h2>Mudando o CSS (estilo)</h2>
+    <p id="estilo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ab laborum. Nemo molestias beatae dolore sit est, quibusdam consectetur dolores ipsam laudantium eum assumenda ex, incidunt nesciunt cum officiis? Quam.</p>
+    <button type="button" onclick="document.getElementById('estilo').style.fontSize='40px'"> Clique aqui para mudar o estilo    </button> <br> <br>
+    <hr>
+    <h2>Escondendo elementos do HTML</h2>
+    <p id="sumir">ISSO AQUI VAI SUMIR KKK</p>
+    <button type="button" onclick="document.getElementById('sumir').style.display='none'">Clique aqui para fazer sumir</button>
+    <br>
+    <hr>
+    <h2>Fazendo os elementos do HTML aparecer</h2>
+    <br>
+    <p id="show" style="display: none">Não tem nada aqui</p>
+    <button type="button" onclick="document.getElementById('show').style.display='block'"> Clique aqui para fazer aparecer</button>
+</body>
+
+
+</html>
